@@ -1,0 +1,128 @@
+body {
+	margin:0;
+	background-color: black;
+	background-size:100% 60%;
+	color: White;
+	display: grid;
+	grid-template-columns: 1fr 215px;
+	grid-template-areas:
+		"header header"
+		"content sidebar"
+		"footer footer";
+}
+.header {
+	background-color: black ;
+	padding : 10px;
+	font-family : sans-serif;
+	margin: 0px;
+	color:brown;
+	border: 0px;
+	grid-area: header;
+	position:fixed;
+		width:100%;
+			text-align:center;
+}
+header.navbar{
+	color:white;
+	box-shadow:2px 2px 1px grey;
+}
+.content {
+	margin:40px;
+	grid-area: content;
+
+}
+
+.sidebar{
+	background-color: rgb(255,89,58);
+		grid-area: sidebar;
+		
+
+
+}
+.head {
+font-family:sans-serif;
+}
+footer {
+
+	background-color :lightblue;
+	grid-area:footer;	
+	color:Black;
+	border: 10px solid White;
+	padding:25px;
+	text-align :center;
+
+}
+.button{
+        border-radius:0px;
+        color:white;
+        background-color:black;
+        padding:20px;
+           margin-right:10px;
+           margin-left:10px;
+          border:2px;
+          display:inline;
+          float:left;
+}
+.button:hover{
+        background-color:grey;
+
+  
+}
+.pic {
+	width:100%;
+margin-top:84px;
+}
+.Slides{
+text-align:center;
+}
+a{
+text-decoration:none;
+color:white;
+}
+a:hover{
+color:white;
+}
+a:visited{
+color:white;
+}
+#tp{
+float:right;
+width:40%;
+height:40%;
+border:2px solid black;
+
+}
+
+.navbar {
+        display:flow-root;
+}
+.navbar img{
+        display:inline;
+        height:60px;
+        width:60px;
+}
+head{
+        width:100%;
+        height:400px;
+}
+
+#tp img{
+        width:100%;
+}
+#imgc{
+        display:inline;
+        float:left;
+}
+
+.fun{
+	text-align:center;
+}
+
+.widget{
+	display:block;
+	margin:0 auto;
+	border-color:white;
+	margin:10px;
+	width:215px;
+	height:215px;
+}
